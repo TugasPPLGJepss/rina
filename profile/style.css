@@ -12,13 +12,19 @@ nav ul{
 }
 nav a {
     text-decoration: none;
-    color: skyblue;
+    color: rgb(0, 0, 0);
 }
 header{
-    background-color: lightpink;
-    color: rgb(0, 0, 0);
+    background-color: lightblue;
+    color: rgb(255, 255, 255);
     padding: 1rem;
 }
 nav a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;background-color: lightgoldenrodyellow;
+    padding: 3rem;
 }
